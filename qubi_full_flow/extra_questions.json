@@ -1,0 +1,6 @@
+[
+  {"id":4,"question":"Which animal can fly?","options":["PENGUIN","EAGLE","ELEPHANT"],"answer":1,"prompt":"Which animal can fly?","choices":"Penguin, eagle, or elephant?","reveal":"It's the eagle! Great spotting!"},
+  {"id":5,"question":"Which animal lives in the ocean?","options":["RABBIT","CAT","DOLPHIN"],"answer":2,"prompt":"Which animal lives in the ocean?","choices":"Rabbit, cat, or dolphin?","reveal":"It's the dolphin! Splash!"},
+  {"id":6,"question":"Which animal is the tallest?","options":["DOG","GIRAFFE","COW"],"answer":1,"prompt":"Which animal is the tallest?","choices":"Dog, giraffe, or cow?","reveal":"It's the giraffe! So tall!"},
+  {"id":7,"question":"Which animal carries a baby in a pouch?","options":["DOG","CAT","KANGAROO"],"answer":2,"prompt":"Who has a baby in a pouch?","choices":"Dog, cat, or kangaroo?","reveal":"It's the kangaroo! Hi, little joey!"}
+]

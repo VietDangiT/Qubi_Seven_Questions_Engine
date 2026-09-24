@@ -1,0 +1,194 @@
+[
+  {
+    "name": "greeting",
+    "start": 4.13,
+    "end": 7.92,
+    "text": "Hi, everyone! I'm Qubi. Ready to play?"
+  },
+  {
+    "name": "old_02",
+    "start": 8.030000000000001,
+    "end": 9.95,
+    "text": "Who made this sound?"
+  },
+  {
+    "name": "old_03",
+    "start": 11.85,
+    "end": 13.55,
+    "text": "Which animal?"
+  },
+  {
+    "name": "old_04",
+    "start": 13.62,
+    "end": 14.99,
+    "text": "Your guess?"
+  },
+  {
+    "name": "old_05",
+    "start": 18.02,
+    "end": 20.85,
+    "text": "Three, two, one!"
+  },
+  {
+    "name": "old_06",
+    "start": 21.12,
+    "end": 23.8,
+    "text": "It's the cat! Meow!"
+  },
+  {
+    "name": "old_07",
+    "start": 24.12,
+    "end": 25.85,
+    "text": "Great listening!"
+  },
+  {
+    "name": "old_08",
+    "start": 26.04,
+    "end": 27.97,
+    "text": "Listen. Who is it?"
+  },
+  {
+    "name": "old_09",
+    "start": 29.82,
+    "end": 31.54,
+    "text": "Take a guess!"
+  },
+  {
+    "name": "old_10",
+    "start": 31.65,
+    "end": 32.95,
+    "text": "Your turn!"
+  },
+  {
+    "name": "old_11",
+    "start": 36.04,
+    "end": 38.84,
+    "text": "Three, two, one!"
+  },
+  {
+    "name": "old_12",
+    "start": 39.15,
+    "end": 41.83,
+    "text": "It's the dog! Woof, woof!"
+  },
+  {
+    "name": "old_13",
+    "start": 42.12,
+    "end": 43.86,
+    "text": "You got it!"
+  },
+  {
+    "name": "old_14",
+    "start": 44.04,
+    "end": 45.98,
+    "text": "Last one. Listen!"
+  },
+  {
+    "name": "old_15",
+    "start": 48.18,
+    "end": 49.88,
+    "text": "Which animal?"
+  },
+  {
+    "name": "old_16",
+    "start": 50.02,
+    "end": 50.99,
+    "text": "Guess!"
+  },
+  {
+    "name": "old_17",
+    "start": 54.05,
+    "end": 56.84,
+    "text": "Three, two, one!"
+  },
+  {
+    "name": "old_18",
+    "start": 57.15,
+    "end": 59.82,
+    "text": "It's the cow! Moo!"
+  },
+  {
+    "name": "q4_prompt",
+    "start": 60.12,
+    "end": 63.08,
+    "text": "Which animal can fly?"
+  },
+  {
+    "name": "q4_choices",
+    "start": 63.25,
+    "end": 68.65,
+    "text": "Penguin, eagle, or elephant?"
+  },
+  {
+    "name": "q4_reveal",
+    "start": 73.12,
+    "end": 77.72,
+    "text": "It's the eagle! Great spotting!"
+  },
+  {
+    "name": "q5_prompt",
+    "start": 78.12,
+    "end": 81.08,
+    "text": "Which animal lives in the ocean?"
+  },
+  {
+    "name": "q5_choices",
+    "start": 81.25,
+    "end": 86.65,
+    "text": "Rabbit, cat, or dolphin?"
+  },
+  {
+    "name": "q5_reveal",
+    "start": 91.12,
+    "end": 95.72,
+    "text": "It's the dolphin! Splash!"
+  },
+  {
+    "name": "q6_prompt",
+    "start": 96.12,
+    "end": 99.08,
+    "text": "Which animal is the tallest?"
+  },
+  {
+    "name": "q6_choices",
+    "start": 99.25,
+    "end": 104.65,
+    "text": "Dog, giraffe, or cow?"
+  },
+  {
+    "name": "q6_reveal",
+    "start": 109.12,
+    "end": 113.72,
+    "text": "It's the giraffe! So tall!"
+  },
+  {
+    "name": "q7_prompt",
+    "start": 114.12,
+    "end": 117.08,
+    "text": "Who has a baby in a pouch?"
+  },
+  {
+    "name": "q7_choices",
+    "start": 117.25,
+    "end": 122.65,
+    "text": "Dog, cat, or kangaroo?"
+  },
+  {
+    "name": "q7_reveal",
+    "start": 127.12,
+    "end": 131.72,
+    "text": "It's the kangaroo! Hi, little joey!"
+  },
+  {
+    "name": "score",
+    "start": 132.12,
+    "end": 136.85,
+    "text": "Great job! Seven questions! How many did you get right?"
+  },
+  {
+    "name": "goodbye",
+    "start": 137.13,
+    "end": 143.4,
+    "text": "Thanks for playing with me! See you next time. Bye-bye!"
+  }
+]

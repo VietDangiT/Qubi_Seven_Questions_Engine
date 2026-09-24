@@ -1,0 +1,15 @@
+{
+  "question": "Which animal made this sound?",
+  "labels": [
+    "DOG",
+    "CAT",
+    "COW"
+  ],
+  "correct_index": 1,
+  "card_mode": "approved_composite_one_owner",
+  "approved_card_sha256": {
+    "cat_card.png": "7920c62d1ec11aaeb5dfd5164b42a752973d319f3756ced9793f47dc249b02dc",
+    "dog_card.png": "d376d7e5378ff19ac14a705584127c7e0386e0d1bbf390996bf5ddce27d873f6",
+    "cow_card.png": "ae00b4a7c51bf045ce9a54ca22906d80569d9e62433d4a543b8a844b5509fea8"
+  }
+}
