@@ -5,12 +5,9 @@ import json
 import hashlib
 import math
 import subprocess
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw
 from render import ROOT, W, H, FPS, DURATION, CARD_NAMES, CENTERS, CARD_TOP, MAX_SCALE, ease
-
-FONT='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
-
-def font(size):return ImageFont.truetype(FONT,size)
+from font_utils import font
 
 def scene_plate():
     im=Image.new('RGBA',(W,H),'#f9efdc')

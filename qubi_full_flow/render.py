@@ -10,7 +10,8 @@ import json
 import math
 import subprocess
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageFont, ImageFilter
+from PIL import Image, ImageDraw, ImageFilter
+from font_utils import font
 
 ROOT=Path(__file__).resolve().parent
 W,H,FPS,DURATION=1280,720,30,10.2
@@ -19,7 +20,6 @@ CARD_TOP=250
 MAX_SCALE=1.06
 BANNER_TOP=520
 CARD_NAMES=('dog_card.png','cat_card.png','cow_card.png')
-FONT='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
 
 def preflight(manifest):
     spec=json.loads(Path(manifest).read_text())
@@ -66,13 +66,13 @@ def frame_at(t,plate,cards):
         base.alpha_composite(item,(x,y))
     d=ImageDraw.Draw(base)
     if 1.85<=t<4.65:
-        d.text((748,500),'Think...',anchor='mm',font=ImageFont.truetype(FONT,19),fill='#806c52')
+        d.text((748,500),'Think...',anchor='mm',font=font(19),fill='#806c52')
     elif 4.65<=t<5.45:
         n=max(1,3-int((t-4.65)/.27))
-        d.text((748,500),str(n),anchor='mm',font=ImageFont.truetype(FONT,32),fill='#d38e28')
+        d.text((748,500),str(n),anchor='mm',font=font(32),fill='#d38e28')
     elif t>=5.45:
         d.rounded_rectangle((605,520,893,554),radius=18,fill='#fffdf9',outline='#40a468',width=2)
-        d.text((749,537),"Correct! It's the CAT!",anchor='mm',font=ImageFont.truetype(FONT,18),fill='#253a55')
+        d.text((749,537),"Correct! It's the CAT!",anchor='mm',font=font(18),fill='#253a55')
     return base.convert('RGB')
 
 def render(out,qa_dir):
